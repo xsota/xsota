@@ -10,7 +10,7 @@ const ui = importJsx('./ui');
 
 meow(`
 	Usage
-	  $ xsota
+	  $ npx xsota
 `);
 
 
