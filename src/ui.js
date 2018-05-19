@@ -3,7 +3,6 @@ const {h, Text} = require('ink');
 const SelectInput = require('ink-select-input');
 const opn = require('opn');
 
-
 const open = url => opn(url, {wait: false});
 
 const handleSelect = item => {
