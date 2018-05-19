@@ -1,11 +1,13 @@
 {
   "name": "xsota",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "xsota CLI",
   "license": "MIT",
   "repository": "https://github.com/xsota/xsota",
   "author": "xsota <me@xsota.com> (xsota.com)",
-  "bin": "src/cli.js",
+  "bin": {
+    "xsota": "src/cli.js"
+  },
   "engines": {
     "node": ">=8"
   },
@@ -26,6 +28,7 @@
     "ink": "^0.4.1",
     "ink-select-input": "^1.1.0",
     "meow": "^5.0.0",
+    "mewo": "^1.2.0",
     "opn": "^5.3.0",
     "term-img": "^2.1.0"
   }
