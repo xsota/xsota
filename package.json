@@ -1,6 +1,6 @@
 {
   "name": "xsota",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "xsota CLI",
   "license": "MIT",
   "repository": "https://github.com/xsota/xsota",
@@ -15,7 +15,7 @@
     "test": "xo && ava"
   },
   "files": [
-    "source"
+    "src"
   ],
   "keywords": [
     "cli-app",
